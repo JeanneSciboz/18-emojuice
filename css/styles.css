@@ -11,8 +11,9 @@ img {
 
 header {
   background-image: url(../img/bg-header.png);
-  padding-top: 30px;
-  margin-top: 10px; 
+  padding-top: 30px; 
+  background-color: #7DB96F;
+  border-top: 10px solid #7DB96F;
 }
 
 .box-title {
@@ -59,6 +60,7 @@ h2 {
 font-family: 'Maven Pro', sans-serif;
 font-weight: 700;
 font-size: 25px;
+margin-bottom: 35px;
 }
 
 p {
@@ -92,6 +94,26 @@ p {
 
 .section-produit p {
   opacity: 50%;
+}
+
+.card-produit {
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.produit-flex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.section-produit a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .card-banane {
@@ -132,22 +154,3 @@ footer p {
   font-family: 'Maven Pro', sans-serif;
 }
 
-.card-produit {
-  padding: 40px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-}
-
-.produit-flex {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-
-}
-
-.section-produit a {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  text-decoration: underline;
-}
