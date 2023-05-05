@@ -81,5 +81,38 @@ p {
 
 .section-produit h2 {
   color: #FFFFFF;
+}
+
+.section-produit {
+  padding: 50px 50px;
+  
+}
+
+.section-produit p {
+  opacity: 50%;
 
 }
+
+.box-banane {
+  background-color: #FCF7D6;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.box-kiwi {
+  background-color: #D0F1AE;
+}
+
+.box-cafe {
+  background-color: #CDC4B0;
+}
+
+.box-fraise {
+  background-color: #E2A2B1;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+}
+
